@@ -1,0 +1,81 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: monospace;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: lightgrey;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa{
+    width: 375px;
+    height: 520px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.07);
+    padding: 20px;
+    overflow: auto;
+}
+
+.caixa form{
+    width: 100%;
+    border: 1px solid lightcoral;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.caixa form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+}
+
+.caixa form i{
+    padding-left: 10px;
+}
+
+.caixa img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.lista-onibus{
+    padding: 20px 0;
+}
+
+.onibus{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom:15px ;
+}
+
+.onibus .b-datalhes{
+    padding-left: 15px;
+}
+
+.onibus .b-datalhes h2{
+    font-size: 20px;
+    color: #1b1b1b;
+}
+
+.onibus .b-datalhes h3{
+    font-size: 18px;
+}
